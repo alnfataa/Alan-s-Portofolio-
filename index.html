@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alan | Portofolio</title>
+  <meta name="description" content="Portofolio Alan, mahasiswa Universitas Sumatera Utara yang belajar pemrograman dan matematika.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda">Alan's Portofolio</a>
+      <ul class="nav-links">
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#kemampuan">Kemampuan</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero">
+      <div class="hero-text">
+        <h1>Halo, saya Alan. Saya menulis kode dan mencari error.</h1>
+        <p>Mahasiswa Universitas Sumatera Utara yang sedang belajar pemrograman dan matematika. Di sini saya mengumpulkan proyek yang sudah saya kerjakan.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyek">Lihat proyek</a>
+          <a class="btn btn-ghost" href="#kontak">Hubungi saya</a>
+        </div>
+      </div>
+      <div class="editor" aria-hidden="true">
+        <div class="editor-bar"><span></span><span></span><span></span><em>halo.cpp</em></div>
+<pre><code><span class="c">// portofolio Alan</span>
+<span class="k">#include</span> <span class="s">&lt;iostream&gt;</span>
+
+<span class="k">int</span> main() {
+  std::cout &lt;&lt; <span class="s">"Halo, dunia!"</span>;
+  <span class="k">return</span> 0;
+}<span class="cursor"></span></code></pre>
+      </div>
+    </section>
+
+    <section id="tentang" class="section">
+      <h2>Tentang Saya</h2>
+      <div class="about">
+        <p>Saya mahasiswa Universitas Sumatera Utara (USU). Dunia pemrograman mulai saya dalami sejak bersekolah di SMK Negeri 9, dengan jurusan Rekayasa Perangkat Lunak. Sejak saat itu, saya selalu tertarik mempelajari hal-hal baru di bidang teknologi.</p>
+        <p>Saya mampu menulis kode dalam beberapa bahasa pemrograman dan mudah beradaptasi dengan lingkungan maupun teknologi baru. Di sela-sela kesibukan, saya suka pergi ke alam untuk menyegarkan pikiran.</p>
+        <ul class="facts">
+          <li><strong>Kampus</strong> Universitas Sumatera Utara</li>
+          <li><strong>Sekolah</strong> SMK Negeri 9, Rekayasa Perangkat Lunak</li>
+          <li><strong>Hobi</strong> Belajar teknologi baru dan menjelajahi alam</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="kemampuan" class="section">
+      <h2>Kemampuan</h2>
+      <div class="skills">
+        <article class="skill-group">
+          <h3>Bahasa pemrograman</h3>
+          <ul class="chips">
+            <li>C++</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Pascal</li>
+            <li>Prolog (SWISH)</li>
+          </ul>
+        </article>
+        <article class="skill-group">
+          <h3>Web dan alat</h3>
+          <ul class="chips">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Flexbox</li>
+            <li>CSS Grid</li>
+            <li>Qt</li>
+            <li>Git dan GitHub</li>
+            <li>Figma</li>
+          </ul>
+        </article>
+        <article class="skill-group">
+          <h3>Sikap kerja</h3>
+          <ul class="chips">
+            <li>Mudah beradaptasi</li>
+            <li>Suka belajar teknologi baru</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyek" class="section">
+      <h2>Proyek</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>BoothEksis: Space Adventure</h3>
+          <p>Aplikasi photo booth desktop bertema luar angkasa. Dibuat dengan Qt dan C++, lengkap dengan alat pengedit foto.</p>
+          <p class="tags">Qt, C++</p>
+          <a href="https://github.com/251401004MuhammadFadhlanSiregar/BoothEksis" target="_blank" rel="noopener" class="project-link">Lihat repositori</a>
+        </article>
+        <article class="project">
+          <h3>MIT Calculator</h3>
+          <p>Membuat kalkulator untuk android dan iOS dengan MIT App Inventor.</p>
+          <p class="tags">Block-Based Language</p>
+          <a href="https://github.com/alnfataa/mitCalculatorAlan" target="_blank" class="project-link">Lihat repositori</a>
+        </article>
+        <article class="project">
+          <h3>Analisis Data</h3>
+          <p>Eksplorasi dan visualisasi data menggunakan Python untuk menemukan pola dari data mentah.</p>
+          <p class="tags">Python</p>
+          <a href="#" class="project-link">Lihat repositori</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="kontak" class="section">
+      <h2>Kontak</h2>
+      <p class="contact-intro">Ingin berdiskusi atau bekerja sama? Hubungi saya lewat salah satu kanal di bawah.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:alanfata000@gmail.com"><span>Email</span> alanfata000@gmail.com</a></li>
+        <li><a href="https://github.com/alnfataa" target="_blank" rel="noopener"><span>GitHub</span> github.com/alnfataa</a></li>
+        <li><a href="https://www.instagram.com/alnfataa" target="_blank" rel="noopener"><span>Instagram</span> @alnfataa</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Alan. Dibuat dengan HTML dan CSS.</p>
+    <a href="#beranda">Kembali ke atas</a>
+  </footer>
+
+</body>
+</html>
